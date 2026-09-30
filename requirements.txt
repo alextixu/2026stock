@@ -1,0 +1,2 @@
+# Includes stock_api dependencies and the tested XGB38 inference environment.
+-r xgb38_pack/requirements.txt

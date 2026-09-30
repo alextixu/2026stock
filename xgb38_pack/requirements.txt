@@ -1,0 +1,7 @@
+# 純 XGBoost(regq)選股系統 —— 推論與交易計畫所需
+pandas==2.3.3
+numpy==2.2.6
+pyarrow==23.0.1
+xgboost==3.3.0
+requests==2.32.5
+yfinance==1.2.0

@@ -1,0 +1,11 @@
+set_trading_env.ps1
+set_model_env.ps1
+__pycache__/
+reports/
+xgb38_pack/cache/
+*.py[cod]
+*.sqlite3
+*.db
+.pytest_cache/
+.venv/
+venv/
