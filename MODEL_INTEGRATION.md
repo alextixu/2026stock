@@ -68,6 +68,8 @@ GUI 流程：
 
 `nightly_plan.py` 只調用 `TradingService.prepare()`，不調用 `submit()`。它可以產生明日計畫，但不會自動下單。
 
+`nightly_execute.py` 是另外的無人值守入口：它產生計畫後會將全部計畫委託交給 `TradingService.submit()`。送出前仍會重新查詢 API 庫存、比對指紋、驗證清倉張數並防止重複委託。
+
 ## 目前限制
 
 - 只有 2026Q1、Q2、Q3 模型；Q4 日期會停止。
